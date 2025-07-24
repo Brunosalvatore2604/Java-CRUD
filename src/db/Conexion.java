@@ -20,7 +20,7 @@ public class Conexion {
             System.out.println("Error: Driver JDBC no encontrado.");
             e.printStackTrace();
         } catch (SQLException e) {
-            System.out.println("Error al conectar o alterar la base de datos.");
+            System.out.println("Error al conectar con la base");
             e.printStackTrace();
         }
         return conn;
